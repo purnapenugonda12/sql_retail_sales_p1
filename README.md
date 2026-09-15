@@ -121,8 +121,7 @@ SELECT
     gender,
     COUNT(*) as total_trans
 FROM sales
-GROUP 
-    BY 
+GROUP BY 
     category,
     gender
 ORDER BY 1
